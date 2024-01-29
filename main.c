@@ -13,6 +13,10 @@ int main()
     printf("type a,b,and c \n");
     scanf("%d , %d, %d", &a,&b,&c );
 
+    if(a!= 0){
+
+
+
     int discriminant = func(a,b,c);
 
 
@@ -31,6 +35,7 @@ int main()
     }
     else{
         printf("the root is complex");
+    }
     }
     return 0;
 }
